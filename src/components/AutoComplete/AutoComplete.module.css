@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+.AutoComplete{
+    
+    position: absolute;
+    /* border: 3px solid black; */
+    width: inherit;
+   
+}
+#abs{
+
+    height: 60px;
+    width: 100%;
+    
+    
+    
+}
+
+#abs ul{
+    list-style-type: none;
+    margin-top: 0;
+    padding-top: 0;
+    /* border: 1px solid blue; */
+    background-color: white;
+    padding-left: 0;
+    padding-right: 50px;
+}
+
+#abs ul li:hover{
+    background-color:#cfd1d1;
+}
+
+
+
+#myForm input{
+    padding-left: 17px;
+    min-width: 200px;
+    text-align: start;
+    font-size: 17px;
+    margin-left: 0px;
+    height: 50px;
+    border: none;
+}
+#myForm input:focus{
+    outline: none;
+}
+
+#myForm button{
+    
+    height: 52px;
+    
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fc194e;
+    border: none;
+    color: white;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+

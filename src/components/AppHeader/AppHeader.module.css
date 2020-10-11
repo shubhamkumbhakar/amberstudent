@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+.header{
+    background-color: black;
+    background-image: url('https://static-assets-amberstudent.imgix.net/images/header_home_1.jpg');
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+    justify-content: center;
+    font-size: calc(30px + 1vmin);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15px;
+    
+}
+#pdiv{
+    height: 20px;
+}
+.text{
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+.text h1{
+    font-size: 55px;
+    font-weight: 200;
+}
+.text p{
+    margin-top: -40px;
+    padding-top: 0%;
+    font-size: 22px;
+}
+
+@media (min-width: 800px){
+    .header{
+      min-height: 85vh;
+    }
+    
+}
+@media (max-width: 799px){
+    .text h1{
+        font-size: 40px;
+        line-height: 220%;
+    }
+    .text p{
+        
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 550px){
+    .text h1{
+        font-size: 35px;
+        line-height: 220%;
+    }
+    .text p{
+        padding: 15px;
+        font-size: 13px;
+    }
+}
+
+.header a{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    width: 450px;
+    height: 48px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.header a span img{
+    height: 32px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+
+@media (max-width:435px){
+    .header a{
+        display: none;
+    }
+    .header{
+        height: 60vh;
+    }
+    #pdiv{
+        height: 65px;
+    }
+}
+
+#gap{
+    height: 90px;
+    
+    margin: 0 auto;
+    width: 56%;
+}
+@media (max-width: 450px){
+    
+    .header a{
+        margin-top: 45px;
+    }
+}
+@media (max-width: 550px){
+    #gap{
+        width: 95%;
+    }
+    
+}
+
+
+@media (max-width: 490px){
+    .header a{
+        width: 350px;
+        height: 45px;
+        font-size: 15px;
+    }
+    .header a span img{
+        height: 25px;
+    }
+    .header{
+        padding-bottom: 20px;
+    }
+}
+
+
+@media (max-width:400px){
+    .text h1{
+        font-size: 27px;
+        line-height: 150%;
+    }
+    
+    
+}
+
+@media (max-width:275px){
+    .text h1{
+        font-size: 25px;
+        
+    }
+    
+    
+}
